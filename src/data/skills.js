@@ -1,82 +1,124 @@
-import { FaReact, FaNodeJs, FaPython, FaJava, FaHtml5, FaCss3Alt, FaDocker, FaGithub, FaFigma, FaLinux, FaMicrochip, FaWifi, FaCalculator, FaDraftingCompass, FaGitAlt } from 'react-icons/fa';
-import { SiC, SiCplusplus, SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiExpress, SiMongodb, SiFirebase, SiOpencv, SiTensorflow, SiArduino, SiRaspberrypi, SiEspressif } from 'react-icons/si';
-import { VscVscode } from 'react-icons/vsc';
-import { MdDeveloperBoard, MdSensors } from 'react-icons/md';
-import { GiElectric, GiPowerGenerator, GiCircuitry } from 'react-icons/gi';
+import {
+  FaReact,
+  FaNodeJs,
+  FaPython,
+  FaJava,
+  FaHtml5,
+  FaCss3Alt,
+  FaDocker,
+  FaGithub,
+  FaFigma,
+  FaLinux,
+  FaMicrochip,
+  FaWifi,
+  FaCalculator,
+  FaDraftingCompass,
+  FaGitAlt,
+} from "react-icons/fa";
+
+import {
+  SiC,
+  SiCplusplus,
+  SiJavascript,
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiExpress,
+  SiMongodb,
+  SiFirebase,
+  SiOpencv,
+  SiTensorflow,
+  SiArduino,
+  SiRaspberrypi,
+  SiEspressif,
+  SiFlutter,
+} from "react-icons/si";
+
+import { VscVscode } from "react-icons/vsc";
+import { MdDeveloperBoard, MdSensors } from "react-icons/md";
+import { GiElectric, GiPowerGenerator, GiCircuitry } from "react-icons/gi";
 
 export const skills = [
   {
     category: "Programming",
     items: [
-      { name: "C", icon: SiC, percentage: 90 },
-      { name: "C++", icon: SiCplusplus, percentage: 85 },
-      { name: "Python", icon: FaPython, percentage: 95 },
-      { name: "Java", icon: FaJava, percentage: 80 },
-      { name: "JavaScript", icon: SiJavascript, percentage: 92 },
-      { name: "TypeScript", icon: SiTypescript, percentage: 88 }
-    ]
+      { name: "Python", icon: FaPython, percentage: 90 },
+      { name: "JavaScript", icon: SiJavascript, percentage: 90 },
+      { name: "TypeScript", icon: SiTypescript, percentage: 82 },
+      { name: "C++", icon: SiCplusplus, percentage: 82 },
+      { name: "C", icon: SiC, percentage: 80 },
+      { name: "Java", icon: FaJava, percentage: 70 },
+    ],
   },
+
   {
     category: "Frontend",
     items: [
-      { name: "HTML", icon: FaHtml5, percentage: 98 },
-      { name: "CSS", icon: FaCss3Alt, percentage: 95 },
+      { name: "React", icon: FaReact, percentage: 90 },
+      { name: "Next.js", icon: SiNextdotjs, percentage: 82 },
+      { name: "Flutter", icon: SiFlutter, percentage: 85 },
+      { name: "HTML", icon: FaHtml5, percentage: 92 },
+      { name: "CSS", icon: FaCss3Alt, percentage: 88 },
       { name: "Tailwind CSS", icon: SiTailwindcss, percentage: 90 },
-      { name: "React", icon: FaReact, percentage: 92 },
-      { name: "Next.js", icon: SiNextdotjs, percentage: 85 }
-    ]
+    ],
   },
+
   {
     category: "Backend",
     items: [
-      { name: "Node.js", icon: FaNodeJs, percentage: 88 },
-      { name: "Express", icon: SiExpress, percentage: 85 },
+      { name: "Node.js", icon: FaNodeJs, percentage: 85 },
+      { name: "Express.js", icon: SiExpress, percentage: 84 },
       { name: "MongoDB", icon: SiMongodb, percentage: 82 },
-      { name: "Firebase", icon: SiFirebase, percentage: 80 }
-    ]
+      { name: "Firebase", icon: SiFirebase, percentage: 75 },
+    ],
   },
+
+  // {
+  //   category: "AI & Computer Vision",
+  //   items: [
+  //     { name: "Generative AI", percentage: 88 },
+  //     { name: "Prompt Engineering", percentage: 88 },
+  //     { name: "Machine Learning", percentage: 75 },
+  //     { name: "Deep Learning", percentage: 68 },
+  //     { name: "OpenCV", icon: SiOpencv, percentage: 75 },
+  //     { name: "TensorFlow", icon: SiTensorflow, percentage: 70 },
+  //   ],
+  // },
+
   {
-    category: "AI",
+    category: "Electrical & Robotics",
     items: [
-      { name: "Machine Learning", percentage: 85 },
-      { name: "Deep Learning", percentage: 80 },
-      { name: "OpenCV", icon: SiOpencv, percentage: 75 },
-      { name: "TensorFlow", icon: SiTensorflow, percentage: 78 },
-      { name: "Generative AI", percentage: 85 },
-      { name: "Prompt Engineering", percentage: 90 }
-    ]
-  },
-  {
-    category: "Electrical",
-    items: [
-      { name: "Electrical Machines", icon: GiPowerGenerator, percentage: 85 },
-      { name: "PLC", icon: MdDeveloperBoard, percentage: 78 },
+      { name: "Power Systems", icon: GiElectric, percentage: 82 },
+      { name: "Electrical Machines", icon: GiPowerGenerator, percentage: 80 },
+      { name: "PLC", icon: MdDeveloperBoard, percentage: 75 },
       { name: "MATLAB", icon: FaCalculator, percentage: 75 },
-      { name: "AutoCAD Electrical", icon: FaDraftingCompass, percentage: 80 },
-      { name: "Power Systems", icon: GiElectric, percentage: 82 }
-    ]
+      { name: "AutoCAD Electrical", icon: FaDraftingCompass, percentage: 78 },
+    ],
   },
+
   {
-    category: "Electronics",
+    category: "Embedded & IoT",
     items: [
       { name: "Arduino", icon: SiArduino, percentage: 90 },
-      { name: "ESP32", icon: SiEspressif, percentage: 85 },
-      { name: "Raspberry Pi", icon: SiRaspberrypi, percentage: 82 },
+      { name: "ESP32", icon: SiEspressif, percentage: 86 },
+      { name: "Raspberry Pi", icon: SiRaspberrypi, percentage: 80 },
       { name: "Embedded Systems", icon: FaMicrochip, percentage: 84 },
-      { name: "IoT", icon: FaWifi, percentage: 88 },
-      { name: "PCB Design", icon: GiCircuitry, percentage: 80 },
-      { name: "Sensors", icon: MdSensors, percentage: 86 }
-    ]
+      { name: "IoT", icon: FaWifi, percentage: 85 },
+      { name: "PCB Design", icon: GiCircuitry, percentage: 75 },
+      { name: "Sensors", icon: MdSensors, percentage: 85 },
+      { name: "Drone Development", percentage: 82 },
+    ],
   },
+
   {
-    category: "Tools",
+    category: "Tools & Platforms",
     items: [
       { name: "Git", icon: FaGitAlt, percentage: 90 },
-      { name: "GitHub", icon: FaGithub, percentage: 92 },
+      { name: "GitHub", icon: FaGithub, percentage: 90 },
       { name: "VS Code", icon: VscVscode, percentage: 95 },
-      { name: "Linux", icon: FaLinux, percentage: 85 },
+      { name: "Linux", icon: FaLinux, percentage: 82 },
       { name: "Figma", icon: FaFigma, percentage: 75 },
-      { name: "Docker", icon: FaDocker, percentage: 70 }
-    ]
-  }
+      { name: "Docker", icon: FaDocker, percentage: 65 },
+    ],
+  },
 ];

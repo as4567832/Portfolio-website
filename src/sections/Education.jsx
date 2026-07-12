@@ -30,9 +30,9 @@ const Education = () => {
                     <h4 className="text-lg font-bold text-white mb-1">{edu.title}</h4>
                     <span className="text-sm font-medium text-gray-400 mb-2 block">{edu.institution}</span>
                     <p className="text-sm text-gray-300 mb-3">{edu.description}</p>
-                    <span className="inline-block px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs text-primary font-semibold">
+                    {/* <span className="inline-block px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs text-primary font-semibold">
                       {edu.score}
-                    </span>
+                    </span> */}
                   </div>
                 </motion.div>
               ))}

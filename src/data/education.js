@@ -2,34 +2,34 @@ export const education = [
   {
     id: 1,
     title: "B.Tech in Electrical & Electronics Engineering",
-    institution: "XYZ University",
-    date: "2020 - 2024",
+    institution: "Madan mohan Malaviya University of Technology, Gorakhpur",
+    date: "2023 - Present",
     description: "Focus on AI applications in electrical systems, IoT, and control systems.",
-    score: "9.2 CGPA"
+    // score: "9.2 CGPA"
   },
+  // {
+  //   id: 2,
+  //   title: "Diploma in Electronics & Communication",
+  //   institution: "ABC Polytechnic",
+  //   date: "2017 - 2020",
+  //   description: "Core electronics, microcontrollers, and communication systems.",
+  //   score: "85%"
+  // },
   {
     id: 2,
-    title: "Diploma in Electronics & Communication",
-    institution: "ABC Polytechnic",
-    date: "2017 - 2020",
-    description: "Core electronics, microcontrollers, and communication systems.",
-    score: "85%"
+    title: "Higher Secondary (12th)",
+    institution: "Central Board of Secondary Education (CBSE)",
+    date: "2020 - 2022",
+    description: "Physics, Chemistry, and Mathematics.",
+    // score: "90%"
   },
   {
     id: 3,
-    title: "Higher Secondary (12th)",
-    institution: "State Board",
-    date: "2015 - 2017",
-    description: "Physics, Chemistry, and Mathematics.",
-    score: "90%"
-  },
-  {
-    id: 4,
     title: "Secondary (10th)",
-    institution: "State Board",
-    date: "2015",
+    institution: "Central Board of Secondary Education (CBSE)",
+    date: "2018 - 2020",
     description: "General Science and Mathematics.",
-    score: "92%"
+    // score: "92%"
   }
 ];
 

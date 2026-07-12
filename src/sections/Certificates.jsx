@@ -11,8 +11,11 @@ const Certificates = () => {
   return (
     <section id="certificates" className="py-20 relative bg-black/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading eyebrow="Verified Learning" title="My" highlight="Certificates" />
-
+<SectionHeading
+  eyebrow="Verified Learning & Recognition"
+  title="My"
+  highlight="Certificates"
+/>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {certificates.map((cert, index) => (
             <motion.div

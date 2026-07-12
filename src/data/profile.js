@@ -8,7 +8,7 @@ export const profile = {
     "AI Enthusiast",
     "Full Stack Developer"
   ],
-  heroImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80", // Placeholder profile picture
+  heroImage: "https://res.cloudinary.com/htpeewef/image/upload/v1783846701/myImage_hyuyg4.jpg", // Placeholder profile picture
   aboutText: "I am a multi-disciplinary engineer with a passion for building innovative solutions at the intersection of software and hardware. With expertise spanning Full Stack Web Development, Artificial Intelligence, and Embedded Systems, I strive to create impactful and intelligent applications.",
   careerObjective: "To leverage my diverse skill set in IT, AI, and Electronics to architect and develop cutting-edge technological solutions that solve complex real-world problems.",
   resumeUrl: "/resume.pdf",

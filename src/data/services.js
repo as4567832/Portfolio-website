@@ -1,35 +1,48 @@
-import { FaCode, FaMicrochip, FaRobot, FaServer } from 'react-icons/fa';
-import { MdElectricalServices, MdOutlineHomeRepairService } from 'react-icons/md';
+import {
+  FaCode,
+  FaMicrochip,
+  FaRobot,
+  FaServer,
+  FaMobileAlt,
+  FaDrone,
+} from "react-icons/fa";
+import { MdElectricalServices } from "react-icons/md";
 
 export const services = [
   {
     title: "Full Stack Development",
-    description: "Building responsive, performant, and scalable web applications using the MERN stack and Next.js.",
-    icon: FaCode
+    description:
+      "Building responsive and scalable web applications using React, Next.js, Node.js, Express, and MongoDB.",
+    icon: FaCode,
   },
   {
-    title: "IoT Solutions",
-    description: "Designing end-to-end Internet of Things ecosystems connecting hardware devices with cloud platforms.",
-    icon: FaServer
+    title: "Flutter App Development",
+    description:
+      "Developing cross-platform Android and iOS applications with Flutter and Firebase integration.",
+    icon: FaMobileAlt,
   },
   {
-    title: "Embedded Systems",
-    description: "Programming microcontrollers (Arduino, ESP32) and designing custom embedded logic for smart devices.",
-    icon: FaMicrochip
+    title: "AI Integration",
+    description:
+      "Integrating LLMs, AI APIs, and intelligent features into web and mobile applications.",
+    icon: FaRobot,
   },
   {
-    title: "AI Solutions",
-    description: "Integrating Machine Learning models and Generative AI capabilities into web and hardware projects.",
-    icon: FaRobot
+    title: "IoT & Embedded Systems",
+    description:
+      "Building smart IoT solutions using Arduino, ESP32, sensors, and embedded programming.",
+    icon: FaMicrochip,
   },
   {
-    title: "Electrical Design",
-    description: "Drafting circuit schematics, PCB designs, and system architectures for electronics projects.",
-    icon: MdElectricalServices
+    title: "Drone Development",
+    description:
+      "Developing UAV systems, integrating sensors, and working on autonomous drone technologies and flight controllers.",
+    icon: FaDrone,
   },
   {
-    title: "Automation",
-    description: "Creating automated workflows and intelligent control systems for home and industrial applications.",
-    icon: MdOutlineHomeRepairService
-  }
+    title: "Robotics & Electronics",
+    description:
+      "Designing electronic circuits, robotics prototypes, and hardware solutions for engineering projects.",
+    icon: MdElectricalServices,
+  },
 ];

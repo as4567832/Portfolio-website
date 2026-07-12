@@ -1,53 +1,76 @@
-// type: one of "Experience", "Internship", "Training", "Hackathon", "Workshop", "Research"
+// type: one of "Experience", "Internship", "Leadership", "Achievement", "Event", "Workshop"
+
 export const experience = [
   {
     id: 1,
-    type: "Experience",
-    role: "Full Stack Developer Intern",
-    company: "Tech Solutions Inc.",
-    date: "Jan 2025 - Present",
-    description: "Developing scalable web applications using the MERN stack and integrating AI features."
+    type: "Achievement",
+    role: "Aerothon 2026 Qualifier(Phase 1)",
+    company: "National UAV Innovation Challenge",
+    date: "2026",
+    description:
+      "Qualified for Aerothon(phase 1) 2026 by presenting an innovative UAV-based solution, demonstrating strong engineering and problem-solving skills."
   },
   {
     id: 2,
-    type: "Research",
-    role: "IoT Research Assistant",
-    company: "University Lab",
-    date: "Aug 2023 - May 2024",
-    description: "Designed and implemented smart sensor networks for environmental monitoring."
+    type: "Leadership",
+    role: "Vice President",
+    company: "Robotics Club",
+    date: "2026 - Present",
+    description:
+      "Leading club operations, mentoring members, organizing technical events, and promoting robotics innovation across campus."
   },
   {
     id: 3,
     type: "Internship",
-    role: "Electrical Design Intern",
-    company: "Power Systems Ltd.",
-    date: "May 2023 - July 2023",
-    description: "Assisted in designing power distribution panels and drafting schematics using AutoCAD."
+    role: "Engineering Intern",
+    company: "Bharat Heavy Electricals Limited (BHEL)",
+    date: "2026",
+    description:
+      "Completed industrial training with exposure to power systems, manufacturing processes, and industrial engineering practices."
   },
   {
     id: 4,
-    type: "Hackathon",
-    role: "1st Place - Smart India Hackathon",
-    company: "National Level Hackathon",
-    date: "Feb 2023",
-    description: "Built an IoT-based energy monitoring prototype in 36 hours, winning first place among 200+ teams."
+    type: "Event",
+    role: "Core Organizer",
+    company: "TechSrijan - Annual Technical Fest",
+    date: "2026",
+    description:
+      "Organized technical events, coordinated volunteers, and managed event execution for the institute's annual technical festival."
   },
   {
     id: 5,
     type: "Workshop",
-    role: "Embedded Systems Workshop",
-    company: "IEEE Student Chapter",
-    date: "Nov 2022",
-    description: "Completed an intensive hands-on workshop covering microcontroller programming and PCB design."
+    role: "Drone Workshop Organizer",
+    company: "Robotics Club",
+    date: "2026",
+    description:
+      "Planned and conducted a hands-on drone workshop, introducing participants to UAV fundamentals and practical flight concepts."
   },
   {
     id: 6,
-    type: "Training",
-    role: "Industrial Automation Training",
-    company: "Siemens Training Center",
-    date: "June 2022",
-    description: "Hands-on training on PLC programming, SCADA systems, and industrial automation practices."
+    type: "Leadership",
+    role: "Circuitry Lead",
+    company: "Robotics Club",
+    date: "2025",
+    description:
+      "Led the electronics team, designed hardware circuits, and contributed to robotics project development."
+  },
+  {
+    id: 7,
+    type: "Leadership",
+    role: "Executive Member",
+    company: "Robotics Club",
+    date: "2024",
+    description:
+      "Actively contributed to robotics projects, technical events, and club initiatives while building leadership and teamwork skills."
   }
 ];
 
-export const experienceFilters = ["All", "Experience", "Internship", "Training", "Hackathon", "Workshop", "Research"];
+export const experienceFilters = [
+  "All",
+  "Leadership",
+  "Internship",
+  "Achievement",
+  "Event",
+  "Workshop"
+];
