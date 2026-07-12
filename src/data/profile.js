@@ -1,3 +1,5 @@
+import resumeFile from '../resume/resume.pdf';
+
 export const profile = {
   name: "Ayush Sachan",
   roles: [
@@ -11,7 +13,7 @@ export const profile = {
   heroImage: "https://res.cloudinary.com/htpeewef/image/upload/v1783846701/myImage_hyuyg4.jpg", // Placeholder profile picture
   aboutText: "I am a multi-disciplinary engineer with a passion for building innovative solutions at the intersection of software and hardware. With expertise spanning Full Stack Web Development, Artificial Intelligence, and Embedded Systems, I strive to create impactful and intelligent applications.",
   careerObjective: "To leverage my diverse skill set in IT, AI, and Electronics to architect and develop cutting-edge technological solutions that solve complex real-world problems.",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: resumeFile,
   funFacts: [
     "Built my first circuit before my first web app",
     "Enjoy debugging hardware as much as code",

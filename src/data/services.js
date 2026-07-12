@@ -4,9 +4,8 @@ import {
   FaRobot,
   FaServer,
   FaMobileAlt,
-  FaDrone,
 } from "react-icons/fa";
-import { MdElectricalServices } from "react-icons/md";
+import { MdElectricalServices, MdFlight } from "react-icons/md";
 
 export const services = [
   {
@@ -37,7 +36,7 @@ export const services = [
     title: "Drone Development",
     description:
       "Developing UAV systems, integrating sensors, and working on autonomous drone technologies and flight controllers.",
-    icon: FaDrone,
+    icon: MdFlight,
   },
   {
     title: "Robotics & Electronics",

@@ -50,7 +50,7 @@ const Navbar = () => {
               onClick={() => handleNavClick('home')}
               className="cursor-pointer text-2xl font-bold text-gradient"
             >
-              Portfolio.
+              Ayush Sachan.
             </RouterLink>
           </div>
           <div className="hidden lg:block">

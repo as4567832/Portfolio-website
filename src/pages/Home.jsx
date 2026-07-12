@@ -11,7 +11,7 @@ import Education from '../sections/Education';
 import Certificates from '../sections/Certificates';
 import Achievements from '../sections/Achievements';
 import Gallery from '../sections/Gallery';
-import Testimonials from '../sections/Testimonials';
+// import Testimonials from '../sections/Testimonials';
 import Blog from '../sections/Blog';
 import Contact from '../sections/Contact';
 
@@ -41,7 +41,7 @@ const Home = () => {
       <Certificates />
       <Achievements />
       <Gallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Blog />
       <Contact />
     </>
