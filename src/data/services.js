@@ -21,12 +21,6 @@ export const services = [
     icon: FaMobileAlt,
   },
   {
-    title: "AI Integration",
-    description:
-      "Integrating LLMs, AI APIs, and intelligent features into web and mobile applications.",
-    icon: FaRobot,
-  },
-  {
     title: "IoT & Embedded Systems",
     description:
       "Building smart IoT solutions using Arduino, ESP32, sensors, and embedded programming.",

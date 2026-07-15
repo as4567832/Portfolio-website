@@ -117,8 +117,8 @@ export const skills = [
       { name: "GitHub", icon: FaGithub, percentage: 90 },
       { name: "VS Code", icon: VscVscode, percentage: 95 },
       { name: "Linux", icon: FaLinux, percentage: 82 },
-      { name: "Figma", icon: FaFigma, percentage: 75 },
-      { name: "Docker", icon: FaDocker, percentage: 65 },
+      { name: "Arduino IDE", icon: SiArduino, percentage: 90 },
+      // { name: "Docker", icon: FaDocker, percentage: 65 },
     ],
   },
 ];
